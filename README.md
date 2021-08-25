@@ -105,7 +105,7 @@ formato ya explicado, y realizar una pull request con los archivos en directorio
 El primer paso antes de probar la malla es clonar el repositorio, para esto deben instalar [git](https://git-scm.com/). 
 El segundo paso es clonar el repositorio, para esto vayan al directorio donde quieren tener los archivos en una terminal y ejecuten:
 ```shell
-git clone URL_REPOSITORIO
+git clone git@github.com:CrisHeredia00/Malla_UAI.git
 ```
 (URL_REPOSITORIO se encuentra en el boton verde que dice "code" de github)
 
