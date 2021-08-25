@@ -32,7 +32,7 @@ Proyecto Universitario en donde busca desarrollar un simulador interactivo con e
 - Cualquier cambio realizado queda guardado para la próxima visita a la página
 - Modo oscuro y modo claro automático basado en la configuración del SO o explorador
 
-# TODO
+# TO DO
 * [ ] Subir a la plataforma mallas UAI:
     * [ ] Industrial
     * [ ] Informática
@@ -105,7 +105,6 @@ El segundo paso es clonar el repositorio, para esto vayan al directorio donde qu
 ```shell
 git clone git@github.com:CrisHeredia00/Malla_UAI.git
 ```
-(URL_REPOSITORIO se encuentra en el boton verde que dice "code" de github)
 
 Para probar la malla, existen los siguientes métodos:
 
