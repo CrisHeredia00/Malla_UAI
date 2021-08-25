@@ -18,7 +18,6 @@ Proyecto Universitario en donde busca desarrollar un simulador interactivo con e
 3. [¿Cómo funciona la malla?](#¿Cómo-funciona-la-malla?)
 4. [Agregar o cambiar una malla](#Agregar-o-cambiar-una-malla)
 5. [Probar malla](#Probar-malla)
-6. [Agradecimientos](#Agradecimientos)
 
 # Características de la malla
 - Visualiza los créditos de las asignaturas según el sistema **USM** o **SCT** 
@@ -45,8 +44,7 @@ Proyecto Universitario en donde busca desarrollar un simulador interactivo con e
 ## ¿Cómo funciona la malla?
 
 Cada malla necesita de dos archivos `.json` para que esta se muestre en el sitio. Estos tienen por nombre
-`data_CARR.json` y `colors_CARR.json` y se ubican en el directorio `/data`. `CARR` corresponde a la abrebiatura de la carrera (por Ej: INF para informática) El primero (`data_CARR.json`) contiene
-la información de cada ramo y sus características agrupados por semestre. Se sigue la siguiente estructura:  
+`data_CARR.json` y `colors_CARR.json` y se ubican en el directorio `/data`. `CARR` corresponde a la abreviatura de la carrera (por Ej: INF para informática) El primero (`data_CARR.json`) contienela información de cada ramo y sus características agrupados por semestre. Se sigue la siguiente estructura:  
 ```json5
 {
   "s2": [
@@ -95,7 +93,7 @@ y [colors_INF.json](https://github.com/CsarMan/malla-interactiva/blob/master/dat
 
 ## Agregar o cambiar una malla
 
-Hay varias formas de agregar o cambiar una malla. La más directa es editar o crear directamente los archivos usando el
+La forma más directa es editar o crear directamente los archivos usando el
 formato ya explicado, y realizar una pull request con los archivos en directorio correcto.
 
 *Nota*: Es recomendable (por no decir necesario) hacer el proceso en un computador.
