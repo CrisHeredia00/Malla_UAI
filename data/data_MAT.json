@@ -15,7 +15,8 @@
         ["Química y Sociedad","QUI-010",3,0,"PC",[],""],
         ["Humanístico II","HRW-102",2,0,"FC",[],""],
         ["Inglés 1","HCW-100",2,0,"ENG",[],""],
-        ["Educación Física II","DEW-101",1,0,"DEW",["DEW-100"],""]
+        ["Educación Física II","DEW-101",1,0,"DEW",["DEW-100"],""],
+        ["Educación Física purbeasdas","DEW-101",1,0,"DEW",["DEW-100"],""]
     ],
     "s3": [
         ["Matemáticas III","MAT-023",4,7,"PC",["MAT-022"],"A"],
