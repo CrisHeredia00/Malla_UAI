@@ -6,7 +6,8 @@
         ["Introducción a la Ingeniería","IWG-101",2,0,"IAA",[],""],
         ["Humanístico I","HRW-101",2,0,"FC",[],""],
         ["Educación Física I","DEW-100",1,0,"DEW",[],""],
-        ["Deporte", "DEP",0,0,"FC",[],""]
+        ["Deporte", "DEP",0,0,"FC",[],""],
+        ["Artes", "ART",0,0,"FC",[],""]
     ],
     "s2": [
         ["Matemáticas II","MAT-022",5,7,"PC",["MAT-021"],"A"],
