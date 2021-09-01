@@ -20,7 +20,8 @@
         ["Física General II","FIS-120",4,8,"PC",["MAT-022","FIS-110"],"A"],
         ["Estructura de Datos y Algoritmos","ELO-320",3,0,"CI",["IWI-131"],""],
         ["Inglés 2","HCW-101",2,0,"ENG",["HCW-100"],""],
-        ["Álgebra Lineal I","MAT-210",4,6,"ICMATB",["MAT-022"],"I"]
+        ["Álgebra Lineal I","MAT-210",4,6,"ICMATB",["MAT-022"],"I"],
+        ["Cálculo Del Pico", "PICO-101", 3,4, "PC", [], ""]
     ],
     "s4": [
         ["Introducción a la Matemática Avanzada","MAT-125",4,6,"ICMATB",["MAT-022"],"P"],
