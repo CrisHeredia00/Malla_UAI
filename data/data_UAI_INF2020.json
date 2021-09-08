@@ -1,0 +1,86 @@
+{
+	"s1": [
+		["CORE: Civilización Contemporánea I", "CORE101", 5,0,"PC", [], "I"],
+        ["CORE: Escritura Argumentativa", "CORE103", 4,0,"PC", [], "A"],
+        ["Programación", "TICS100", 6,0,"PC",[], "A"],
+        ["Cálculo Diferencial","MAT105", 6,0,"PC",[], "A"],
+        ["Álgebra", "MAT109", 6,0,"PC", [], "A"],
+        ["Educación Física I", "GYM101",1,0,[], "A"]
+	],
+	"s2": [
+		["CORE: Civilización Contemporánea II","CORE102",5,0,"PC",[],"P"],
+        ["Álgebra Lineal", "MAT113", 6,0,"PC", ["MAT109"], "A"],
+        ["Física I", "FIS101", 6,0,"PC", ["MAT105"], "A"],
+        ["Cálculo Integral", "MAT106", 6,0,"PC", ["MAT105"], "A"],
+        ["Taller de Introducción a la Ingeniería", "TEI101", 4,0,"PC",[], "A"],
+        ["Educación Física II", "GYM102",1,0,"PC", [], "A"]
+	],
+	"s3": [
+		["CORE: Literatura y Humanidades I", "CORE201", 5,0,"PC",["CORE102"],"I"],
+        ["Probabilidad y Estadística", "EST211", 6,0, "PC", ["MAT106"], "A"],
+        ["Física II", "FIS201", 6,0, "PC", ["MAT106", "FIS101"], "A"],
+        ["Cálculo Multivariables", "MAT203",6,0,"PC", ["MAT106"], "A"],
+        ["Fundamentos de Ciencias Ambientales", "ING116", 6,0,"PC", [], "A"],
+        ["Taller de Expresión Oral I", "LING111", 1,0,"PC", [], "A"],
+        ["Educación Física III", "GYM103",1,0,"PC", [], "A"]
+	],
+	"s4": [
+		["CORE: Literatura y Humanidades II", "CORE202", 5,0,"PC",["CORE102"],"P"],
+        ["Fundamentos de Ciencias de Datos", "TICS314", 6,0,"PC", ["TICS100"], "A"],
+        ["Física III", "FIS301", 6,0,"PC", ["FIS201"], "A"],
+        ["Ecuaciones Diferenciales", "MAT208", 6,0, "PC", ["MAT203"], "A"],
+        ["Taller de Diseño en la Ingeniería", "TEI201", 4,0, "PC", ["TEI101"], "A"],
+        ["Educación Física IV", "GYM104",1,0,"PC", [], "A"],
+        ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
+	],
+	"s5": [
+		["Bases de Datos","INF-239",3,5,"IS",["INF-134"],"A"],
+		["Arquitectura y Organización de Computadores","INF-245",3,5,"TIC",["INF-134"],"A"],
+		["Física General IV","FIS-140",4,8,"PC",["FIS-130","FIS-120"],"A"],
+		["Estadística Computacional","INF-280",3,5,"AN",["IWI-131","MAT-023"],"A"],
+		["Organizaciones y Sistemas de Información","INF-270",3,5,"SD",["INF-260"],"A"],
+		["Libre III","INF-3",1,2,"HUM",[],"A"]
+	],
+	"s6": [
+		["Análisis y Diseño de Software","INF-236",3,5,"IS",["INF-239","INF-253"],"A"],
+		["Sistemas Operativos","INF-246",3,5,"TIC",["INF-245"],"A"],
+		["Ingeniería, Informática y Sociedad","INF-276",3,5,"TIN",["INF-270"],"A"],
+		["Algoritmos y Complejidad","INF-221",3,5,"FI",["INF-152","INF-253"],"A"],
+		["Optimización","INF-292",3,5,"SD",["MAT-023"],"A"],
+		["Libre IV","INF-4",1,2,"HUM",[],"A"]
+	],
+	"s7": [
+		["Ingeniería de Software","INF-225",3,5,"IS",["INF-236"],"I"],
+		["Redes de Computadores","INF-256",3,5,"TIC",["INF-246"],"I"],
+		["Información y Matemáticas Financieras","ICN-270",3,5,"IND",["IWN-170"],"I"],
+		["Computación Científica","INF-285",3,5,"AN",["MAT-024","INF-221"],"I"],
+		["Investigación de Operaciones","INF-293",3,6,"SD",["INF-280","INF-292"],"I"],
+		["Libre V","INF-5",1,2,"HUM",[],"A"]
+	],
+	"s8": [
+		["Diseño Interfaces Usuarias","INF-322",3,5,"IS",["INF-225"],"P"],
+		["Sistemas Distribuidos","INF-343",3,5,"TIC",["INF-256"],"P"],
+		["Electivo Informática I","INF-301",3,5,"ELEC",[],"P"],
+		["Inteligencia Artificial","INF-295",3,5,"AN",["INF-292","INF-221"],"P"],
+		["Sistemas de Gestión","INF-266",3,5,"SD",["INF-276"],"P"],
+		["Libre VI","INF-6",1,2,"HUM",[],"A"]
+	],
+	"s9": [
+		["Electivo Informática II","INF-302",3,5,"ELEC",[],"A"],
+		["Electivo Informática III","INF-303",3,5,"ELEC",[],"A"],
+		["Electivo I","INF-311",3,5,"ELEC",[],"A"],
+		["Electivo II","INF-312",3,5,"ELEC",[],"A"],
+		["Gestión de Proyectos de Informática","INF-360",3,5,"SD",["INF-322","INF-266"],"I"],
+		["Libre VII","INF-7",1,2,"HUM",[],"A"]
+	],
+	"s10": [
+		["Electivo Informática IV","INF-304",3,5,"ELEC",[],"A"],
+		["Electivo III","INF-313",3,5,"ELEC",[],"A"],
+		["Electivo IV","INF-314",3,5,"ELEC",[],"A"],
+		["Taller Desarrollo de Proyecto de Informática","INF-228",6,10,"TIN",["INF-360"],"P"],
+		["Trabajo de Título 1","INF-309",1,2,"TIN",["INF-360"],"P"]
+	],
+	"s11": [
+		["Trabajo de Título 2","INF-310",12,20,"TIN",["INF-228","INF-309"],"I"]
+	]
+}
