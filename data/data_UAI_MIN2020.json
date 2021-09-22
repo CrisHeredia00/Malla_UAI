@@ -1,0 +1,68 @@
+{
+	"s1": [
+		["CORE: Civilización Contemporánea I", "CORE101", 5,0,"CORE", [], "I"],
+        ["CORE: Escritura Argumentativa", "CORE103", 4,0,"CORE", [], "A"],
+        ["Programación", "TICS100", 6,0,"PC",[], "A"],
+        ["Cálculo Diferencial","MAT105", 6,0,"PC",[], "A"],
+        ["Álgebra", "MAT109", 6,0,"PC", [], "A"],
+        ["Educación Física I", "GYM101",1,0,"EF",[], "A"]
+	],
+	"s2": [
+		["CORE: Civilización Contemporánea II","CORE102",5,0,"CORE",[],"P"],
+        ["Álgebra Lineal", "MAT113", 6,0,"PC", ["MAT109"], "A"],
+        ["Física I", "FIS101", 6,0,"PC", ["MAT105"], "A"],
+        ["Cálculo Integral", "MAT106", 6,0,"PC", ["MAT105"], "A"],
+        ["Taller de Introducción a la Ingeniería", "TEI101", 4,0,"TEI",[], "A"],
+        ["Educación Física II", "GYM102",1,0,"EF", [], "A"]
+	],
+	"s3": [
+		["CORE: Literatura y Humanidades I", "CORE201", 5,0,"CORE",["CORE102"],"I"],
+        ["Probabilidad y Estadística", "EST211", 6,0, "PC", ["MAT106"], "A"],
+        ["Física II", "FIS201", 6,0, "PC", ["MAT106", "FIS101"], "A"],
+        ["Cálculo Multivariables", "MAT203",6,0,"PC", ["MAT106"], "A"],
+        ["Fundamentos de Ciencias Ambientales", "ING116", 6,0,"PC", [], "A"],
+        ["Taller de Expresión Oral I", "LING111", 1,0,"COMP", [], "A"],
+        ["Educación Física III", "GYM103",1,0,"EF", [], "A"]
+	],
+	"s4": [
+		["CORE: Literatura y Humanidades II", "CORE202", 5,0,"CORE",["CORE102"],"P"],
+        ["Fundamentos de Ciencias de Datos", "TICS314", 6,0,"PC", ["TICS100"], "A"],
+        ["Física III", "FIS301", 6,0,"PC", ["FIS201"], "A"],
+        ["Ecuaciones Diferenciales", "MAT208", 6,0, "PC", ["MAT203"], "A"],
+        ["Taller de Diseño en la Ingeniería", "TEI201", 4,0, "TEI", ["TEI101"], "A"],
+        ["Educación Física IV", "GYM104",1,0,"EF", [], "A"],
+        ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
+	],
+	"s5": [
+		["CORE: Ciencias", "CORE302",4,0,"CORE", ["CORE102"], "A"],
+        ["Operaciones Unitarias", "ING371", 6,0,"MIN", ["FIS201"], "A"],
+        ["Química Avanzada", "QUI200", 6,0, "MIN", ["ING116"], "A"],
+        ["Introducción a la Minería", "MIN210", 6,0, "MIN", ["FIS201"], "A"],
+        ["Geología", "MIN240", 4,0, "MIN", ["FIS201"], "A"],
+        ["Optimización", "ING200", 6,0,"PC", ["MAT203"], "A"]
+	],
+	"s6": [
+		["CORE: Ética", "CORE301", 4,0, "CORE", ["CORE102"], "A"],
+        ["Evaluación de Yacimientos", "MIN431", 6,0, "MIN", ["MIN210"], "P"],
+        ["Mecánica de Rocas", "MIN442", 6,0, "MIN", ["FIS301"], "P"],
+        ["Procesamiento de Minerales", "MIN421", 6,0, "MIN", ["ING371"], "P"],
+        ["Principios de Economía", "ECO110", 6,0, "PC", ["ING200"], "A"],
+        ["Taller de Innovación y Emprendimiento", "TEI301", 4,0,"TEI",["TEI201"],"A"]
+	],
+	"s7": [
+		["CORE: Arte y Humanidades", "CORE304",4,0,"CORE",["CORE202"],"A"],
+        ["Diseño Minero", "MIN411",6,0,"MIN",["MIN210","MIN240"],"A"],
+        ["Investigación de Operaciones", "ING201",6,0,"PC",["EST211","ING200"],"A"],
+        ["Metalurgia Extractiva", "MIN451",6,0,"MIN",["ING116"],"I"],
+        ["Formulación y Evaluación de Proyectos","ECO216",6,0,"PC",["ECO110"],"A"],
+        ["Taller de Expresión Oral II", "LING112", 1,0,"COMP", [],"A"]
+	],
+	"s8": [
+		["Planificación Minera", "MIN320",6,0,"MIN",["MIN431"],"A"],
+        ["Economía y Gestión Minera", "MIN432",6,0,"MIN",[],"A"],
+        ["Sustentabilidad Minera", "MIN461", 6,0,"MIN",["MIN421","QUI200"],"P"],
+        ["Automatización y Metatrónica", "MIN215",6,0,"MIN",["TICS100"],"P"],
+        ["Capstone Project", "TEI401", 4,0,"TEI",["TEI301"],"A"],
+        ["Liderazgo", "LID100", 2,0,"COMP",[],"A"]
+	]
+}
