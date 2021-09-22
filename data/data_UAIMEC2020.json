@@ -38,7 +38,7 @@
         ["Dinámica y Vibraciones","FIS300",6,0,"MEC",["FIS101"],"I"],
         ["Estática Aplicada","OCIV310",6,0,"MEC",["FIS101"],"I"],
         ["Metalurgia Física","MEC401",6,0,"MEC",[],"I"],
-        ["Introducción a la Robótica","TICS412",4,0,"MEC",[""],"I"],
+        ["Introducción a la Robótica","TICS412",4,0,"MEC",[],"I"],
         ["Optimización","ING200",6,0,"PC",["MAT203"],"I"]
     ],
     "s6": [
@@ -65,4 +65,4 @@
         ["Capstone Project","TEI401",4,0,"TEI",["TEI301"],"A"],
         ["Liderazgo","LID100",2,0,"COMP",[],"A"]
     ]
-    }
+}
