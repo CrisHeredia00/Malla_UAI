@@ -1,8 +1,9 @@
 {
-	"CORE":["#92D050","Core Curriculum"],
-	"PC":["#813FA0","Plan Común"],
-	"EF":["#00838F","Educación Física"],
-	"TEI":["#C54B73","Talleres"],
-	"MEC":["#1B57C9","Especialidad Mecánica"],
-	"COMP":["#BFBFBF","Complementarios"]
+	"CORE":["#423294","Core Curriculum"],
+	"PC":["#2795a3","Plan Común"],
+	"DEP":["#4b5470","Deporte"],
+	"TEI":["#e1c714","Talleres"],
+	"IND":["#a01885","Especialidad Mecánica"],
+    "MIN":["#3db6da","Minor"],
+	"COMP":["#4b5470","Complementarios"]
 }
