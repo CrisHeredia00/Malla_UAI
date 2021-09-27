@@ -81,8 +81,8 @@
         ["Optativo I","OPT100",6,0,"PC",[],"A"],
         ["Optativo II","OPT200",6,0,"PC",[],"A"],
         ["Optativo III","OPT300",6,0,"PC",[],"A"],
-        ["Marketing Analytics","",6,0,"IND",["ECO111"],"A"],
-        ["Gestión de Cadena de Suministros","IND423",6,0,"IND",["ECO111"],"A"],
+        ["Marketing Analytics","IND999",6,0,"IND",["ECO111"],"A"],
+        ["Gestión de Cadena de Suministros","IND998",6,0,"IND",["ECO111"],"A"],
         ["Organización Industrial","IND423",6,0,"IND",["ECO111"],"A"]
        
     ]
