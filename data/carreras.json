@@ -1,14 +1,26 @@
 [
   {
-    "Nombre": "Ing. Civil Bioingeniería UAI 2020",
-    "Link": "UAIBIO2020"
-  },
-  {
     "Nombre": "Doble Titulación Industrial - Informática",
     "Link": "UAI_INF_IND2020"
   },
   {
-    "Nombre": "Ing. Civil en Minerías",
-    "Link": "UAIMIN2020"
+    "Nombre": "Ingeniería Civil en Bioingeniería 2020",
+    "Link": "UAI_BIO2020"
+  },
+  {
+    "Nombre": "Ingeniería Civil 2020",
+    "Link": "UAI_CIVIL2020"
+  },
+  {
+    "Nombre": "Ingeniería Civil Industrial 2020",
+    "Link": "UAI_IND2020"
+  },
+  {
+    "Nombre": "Ingeniería Civil Informática 2020",
+    "Link": "UAI_INF2020"
+  },
+  {
+    "Nombre": "Ingeniería Civil Mecánica 2020",
+    "Link": "UAI_MEC2020"
   }
 ]

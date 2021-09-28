@@ -34,7 +34,7 @@
         ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
 	],
 	"s5": [
-		["CORE: Ciencias", "CORE302",4,0,"CORE", ["CORE102"], "A"],
+		["CORE: Ciencias", "CORE302", 4,0, "CORE", ["CORE102"], "A"],
         ["Minería de Datos", "TICS411", 6,0,"INF", [], "A"],
         ["Lenguajes y Paradigmas de Programación", "TICS200", 6,0, "INF", ["TICS100"], "I"],
         ["Estructuras de Datos y Algoritmos", "TICS311", 6,0, "INF", [], "A"],
@@ -61,8 +61,18 @@
 		["Seguridad en TI", "TICS413",6,0,"INF",["TICS304"],"A"],
         ["Ingeniería de Software", "TICS331",6,0,"INF",["TICS200"],"A"],
         ["Arquitectura Cloud", "TICS400", 6,0,"INF",[],"P"],
-        ["Sistemas Operativos", "TICS311",6,0,"INF",["TICS311"],"P"],
+        ["Sistemas Operativos", "TICS312",6,0,"INF",["TICS100"],"P"],
         ["Capstone Project", "TEI401", 4,0,"TEI",["TEI301"],"A"],
         ["Liderazgo", "LID100", 2,0,"COMP",[],"A"]
+	],
+	"s9": [
+		["Gestión de Proyectos Informáticos", "TICS567",6,0,"INF",["TICS304"],"A"],
+        ["Estrategia TI", "TICS421",6,0,"INF",[],"A"],
+        ["Optativo Profesional I","OPT100",6,0,"PC",[],"A"],
+        ["Optativo Profesional II","OPT200",6,0,"PC",[],"A"],
+        ["Optativo Profesional III","OPT300",6,0,"PC",[],"A"]
+	],
+	"s10": [
+		["Titulación", "ING500",6,0,"PC",[],"A"]
 	]
 }

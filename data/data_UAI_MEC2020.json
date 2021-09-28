@@ -34,7 +34,7 @@
         ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
 	],
     "s5": [
-        ["CORE: Ciencias","CORE302",4,0,"CORE",["CORE102"],"A"],
+		["CORE: Ciencias", "CORE302", 4,0, "CORE", ["CORE102"], "A"],
         ["Dinámica y Vibraciones","FIS300",6,0,"MEC",["FIS101"],"I"],
         ["Estática Aplicada","OCIV310",6,0,"MEC",["FIS101"],"I"],
         ["Metalurgia Física","MEC401",6,0,"MEC",[],"I"],

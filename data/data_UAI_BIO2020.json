@@ -52,7 +52,7 @@
     "s7": [
         ["CORE: Arte y Humanidades","CORE304",5,0,"CORE",["CORE202"],"A"],
         ["Biomecánica","BIO420",6,0,"BIO",["BIO320"],"I"],
-        ["Operaciones Unitarias","ING371",6,0,"BIO",["FIs201"],"A"],
+        ["Operaciones Unitarias","ING371",6,0,"BIO",["FIS201"],"A"],
         ["Microbiología Aplicada","BIO452",6,0,"BIO",["ING116"],"I"],
         ["Formulación y Evaluación de Proyectos","ECO216","6",0,"PC",["ECO110"],"A"],
         ["Taller de Expresión Oral II","LING112",4,0,"COMP",[],""]
