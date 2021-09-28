@@ -1,10 +1,14 @@
 [
   {
-    "Nombre": "Ing. Civil Mecánica UAI 2020",
-    "Link": "UAI_MEC2020"
+    "Nombre": "Ing. Civil Bioingeniería UAI 2020",
+    "Link": "UAIBIO2020"
   },
   {
     "Nombre": "Doble Titulación Industrial - Informática",
     "Link": "UAI_INF_IND2020"
+  },
+  {
+    "Nombre": "Ing. Civil en Minerías",
+    "Link": "UAIMIN2020"
   }
 ]
