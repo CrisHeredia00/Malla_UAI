@@ -4,6 +4,6 @@
 	"DEP":["#4b5470","Deporte"],
 	"TEI":["#e1c714","Talleres"],
 	"IND":["#a01885","Especialidad Industrial"],
-    "MIN":["#3db6da","Minor"],
+	"MIN":["#3db6da","Minor"],
 	"COMP":["#4b5470","Complementarios"]
 }
