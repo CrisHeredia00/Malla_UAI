@@ -5,7 +5,7 @@
         ["Programación", "TICS100", 6,0,"PC",[], "A"],
         ["Cálculo Diferencial","MAT105", 6,0,"PC",[], "A"],
         ["Álgebra", "MAT109", 6,0,"PC", [], "A"],
-        ["Educación Física I", "GYM101",1,0,"EF",[], "A"]
+        ["Deporte I", "GYM101",1,0,"DEP",[], "A"]
 	],
 	"s2": [
 		["CORE: Civilización Contemporánea II","CORE102",5,0,"CORE",[],"P"],
@@ -13,7 +13,7 @@
         ["Física I", "FIS101", 6,0,"PC", ["MAT105"], "A"],
         ["Cálculo Integral", "MAT106", 6,0,"PC", ["MAT105"], "A"],
         ["Taller de Introducción a la Ingeniería", "TEI101", 4,0,"TEI",[], "A"],
-        ["Educación Física II", "GYM102",1,0,"EF", [], "A"]
+        ["Deporte II", "GYM102",1,0,"DEP", [], "A"]
 	],
 	"s3": [
 		["CORE: Literatura y Humanidades I", "CORE201", 5,0,"CORE",["CORE102"],"I"],
@@ -22,7 +22,7 @@
         ["Cálculo Multivariables", "MAT203",6,0,"PC", ["MAT106"], "A"],
         ["Fundamentos de Ciencias Ambientales", "ING116", 6,0,"PC", [], "A"],
         ["Taller de Expresión Oral I", "LING111", 1,0,"COMP", [], "A"],
-        ["Educación Física III", "GYM103",1,0,"EF", [], "A"]
+        ["Deporte III", "GYM103",1,0,"DEP", [], "A"]
 	],
 	"s4": [
 		["CORE: Literatura y Humanidades II", "CORE202", 5,0,"CORE",["CORE102"],"P"],
@@ -30,38 +30,38 @@
         ["Física III", "FIS301", 6,0,"PC", ["FIS201"], "A"],
         ["Ecuaciones Diferenciales", "MAT208", 6,0, "PC", ["MAT203"], "A"],
         ["Taller de Diseño en la Ingeniería", "TEI201", 4,0, "TEI", ["TEI101"], "A"],
-        ["Educación Física IV", "GYM104",1,0,"EF", [], "A"],
-        ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
+        ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"],
+        ["Deporte IV", "GYM104",1,0,"DEP", [], "A"]
 	],
     "s5": [
         ["CORE: Ciencias","CORE302",4,0,"CORE",["CORE102"],"A"],
-        ["Dinámica y Vibraciones","FIS300",6,0,"MEC",["FIS101"],"I"],
-        ["Estática Aplicada","OCIV310",6,0,"MEC",["FIS101"],"I"],
-        ["Metalurgia Física","MEC401",6,0,"MEC",[],"I"],
-        ["Introducción a la Robótica","TICS412",4,0,"MEC",[],"I"],
-        ["Optimización","ING200",6,0,"PC",["MAT203"],"I"]
+        ["Minor I","MIN100",6,0,"MIN",[""],"I"],
+        ["Contabilidad y Control de Gestión","ACCT240",6,0,"IND",[],"A"],
+        ["Procesos Industriales","ING105",6,0,"IND",["FIS201"],"A"],
+        ["Organizaciones y Personas","IND428",4,0,"IND",[],"A"],
+        ["Optimización","ING200",6,0,"PC",["MAT203"],"A"]
     ],
     "s6": [
         ["CORE: Ética","CORE301",4,0,"CORE",["CORE102"],"A"],
-        ["Métodos Numéricos","MEC301",6,0,"MEC",["MAT106","MAT113"],"P"],
-        ["Termodinámica","FIS225",6,0,"MEC",["FIS201"],"P"],
-        ["Diseño Mecánico Computacional","MEC300",6,0,"MEC",["ING200"],"P"],
-        ["Principios de economía","ECO110",6,0,"PC",["ING200"],"A"],
+        ["Minor II","MIN200",6,0,"MIN",[],"P"],
+        ["Finanzas","IND424",6,0,"IND",["ACCT240"],"A"],
+        ["Investigación de Operaciones","ING201",6,0,"IND",["EST211","ING200"],"A"],
+        ["Microeconomía","ECO111",6,0,"IND",["MAT203"],"A"],
         ["Taller de Innovación y Emprendimiento","TEI301",4,0,"TEI",["TEI201"],"A"]
     ],
     "s7": [
         ["CORE: Arte y Humanidades","CORE304",5,0,"CORE",["CORE202"],"A"],
-        ["Tecnologías de Generación Convencionales","EYM341",6,0,"MEC",[],"I"],
-        ["Mecánica de Fluidos","ING325",6,0,"MEC",["FIS201", "MAT208"],"I"],
-        ["Diseño de máquinas","MEC400",6,0,"MEC",["MEC300", "FIS301"],"I"],
+        ["Minor III","MIN300",6,0,"MIN",[],"I"],
+        ["Macroeconomía","ECO131",6,0,"IND",["ECO111"],"A"],
+        ["Diseño de Procesos y Servicios","ING480",6,0,"IND",["ING200"],"I"],
         ["Formulación y Evaluación de Proyectos","ECO216","6",0,"PC",["ECO110"],"A"],
         ["Taller de Expresión Oral II","LING112",4,0,"COMP",[],""]
     ],
     "s8": [
-        ["Gestión de Operaciones","ING421",6,0,"MEC",["ING200"],"A"],
-        ["Automatización y Mecatrónica","MIN215",6,0,"MEC",["TICS100"],"P"],
-        ["Proceso de Manufactura","MEC420",6,0,"PC",[],"P"],
-        ["Transferencia de Calor y Masa","EYM311",6,0,"MEC",["FIS225","ING325"],"P"],
+        ["Minor IV","MIN400",6,0,"MIN",[],"P"],
+        ["Gestión de Operaciones","ING421",6,0,"PC",["ING200"],"A"],
+        ["Organización Industrial","IND423",6,0,"IND",["ECO111"],"A"],
+        ["Sistemas de Información","TICS304",6,0,"IND",[],"A"],
         ["Capstone Project","TEI401",4,0,"TEI",["TEI301"],"A"],
         ["Liderazgo","LID100",2,0,"COMP",[],"A"]
     ]

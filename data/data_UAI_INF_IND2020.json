@@ -30,8 +30,9 @@
         ["Física III", "FIS301", 6,0,"PC", ["FIS201"], "A"],
         ["Ecuaciones Diferenciales", "MAT208", 6,0, "PC", ["MAT203"], "A"],
         ["Taller de Diseño en la Ingeniería", "TEI201", 4,0, "TEI", ["TEI101"], "A"],
-        ["Deporte IV", "GYM104",1,0,"DEP", [], "A"],
-        ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
+        ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"],
+        ["Contabilidad y Control de Gestión","ACCT240",6,0,"IND",[],"A"],
+        ["Deporte IV", "GYM104",1,0,"DEP", [], "A"]
 	],
 	"s5": [
 		["CORE: Ciencias", "CORE302",4,0,"CORE", ["CORE102"], "A"],
@@ -39,7 +40,8 @@
         ["Lenguajes y Paradigmas de Programación", "TICS200", 6,0, "INF", ["TICS100"], "I"],
         ["Estructuras de Datos y Algoritmos", "TICS311", 6,0, "INF", [], "A"],
         ["Bases de Datos", "TICS320", 6,0, "INF", [], "A"],
-        ["Optimización", "ING200", 6,0,"PC", ["MAT203"], "A"]
+        ["Optimización", "ING200", 6,0,"PC", ["MAT203"], "A"],
+        ["Procesos Industriales","ING105",6,0,"IND",["FIS201"],"A"]
 	],
 	"s6": [
 		["CORE: Ética", "CORE301", 4,0, "CORE", ["CORE102"], "A"],
@@ -47,7 +49,8 @@
         ["Diseño de Software", "TICS316", 6,0, "INF", [], "P"],
         ["Redes de Computadores", "TICS313", 6,0, "INF", [], "P"],
         ["Principios de Economía", "ECO110", 6,0, "PC", ["ING200"], "A"],
-        ["Taller de Innovación y Emprendimiento", "TEI301", 4,0,"TEI",["TEI201"],"A"]
+        ["Taller de Innovación y Emprendimiento", "TEI301", 4,0,"TEI",["TEI201"],"A"],
+        ["Finanzas","IND424",6,0,"IND",["ACCT240"],"A"]
 	],
 	"s7": [
 		["CORE: Arte y Humanidades", "CORE304",4,0,"CORE",["CORE202"],"A"],
@@ -55,7 +58,8 @@
         ["Programación Profesional", "TICS420",6,0,"INF",["TICS200"],"I"],
         ["Arquitectura de Sistemas", "TICS3017",6,0,"INF",["TICS320"],"I"],
         ["Formulación y Evaluación de Proyectos","ECO216",6,0,"PC",["ECO110"],"A"],
-        ["Taller de Expresión Oral II", "LING112", 1,0,"COMP", [],"A"]
+        ["Taller de Expresión Oral II", "LING112", 1,0,"COMP", [],"A"],
+        ["Investigación de Operaciones","ING201",6,0,"IND",["EST211","ING200"],"A"]
 	],
 	"s8": [
 		["Seguridad en TI", "TICS413",6,0,"INF",["TICS304"],"A"],
@@ -63,6 +67,23 @@
         ["Arquitectura Cloud", "TICS400", 6,0,"INF",[],"P"],
         ["Sistemas Operativos", "TICS311",6,0,"INF",["TICS311"],"P"],
         ["Capstone Project", "TEI401", 4,0,"TEI",["TEI301"],"A"],
-        ["Liderazgo", "LID100", 2,0,"COMP",[],"A"]
-	]
+        ["Liderazgo", "LID100", 2,0,"COMP",[],"A"],
+        ["Diseño de Procesos y Servicios","ING480",6,0,"IND",["ING200"],"I"]
+	],
+    "s9": [
+        ["Macroeconomía","ECO131",6,0,"IND",["ECO111"],"A"],
+        ["Organizaciones y Personas","IND428",4,0,"IND",[],"A"],
+        ["Gestión de Operaciones","ING421",6,0,"IND",["ING200"],"A"],
+        ["Sistemas de Información","TICS304",6,0,"IND",[],"A"]  
+
+	],
+    "s10": [
+        ["Optativo I","OPT100",6,0,"PC",[],"A"],
+        ["Optativo II","OPT200",6,0,"PC",[],"A"],
+        ["Optativo III","OPT300",6,0,"PC",[],"A"],
+        ["Marketing Analytics","IND999",6,0,"IND",["ECO111"],"A"],
+        ["Gestión de Cadena de Suministros","IND998",6,0,"IND",["ECO111"],"A"],
+        ["Organización Industrial","IND423",6,0,"IND",["ECO111"],"A"]
+       
+    ]
 }

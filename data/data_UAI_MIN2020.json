@@ -35,33 +35,33 @@
 	],
 	"s5": [
 		["CORE: Ciencias", "CORE302",4,0,"CORE", ["CORE102"], "A"],
-        ["Minería de Datos", "TICS411", 6,0,"INF", [], "A"],
-        ["Lenguajes y Paradigmas de Programación", "TICS200", 6,0, "INF", ["TICS100"], "I"],
-        ["Estructuras de Datos y Algoritmos", "TICS311", 6,0, "INF", [], "A"],
-        ["Bases de Datos", "TICS320", 6,0, "INF", [], "A"],
+        ["Operaciones Unitarias", "ING371", 6,0,"MIN", ["FIS201"], "A"],
+        ["Química Avanzada", "QUI200", 6,0, "MIN", ["ING116"], "A"],
+        ["Introducción a la Minería", "MIN210", 6,0, "MIN", ["FIS201"], "A"],
+        ["Geología", "MIN240", 4,0, "MIN", ["FIS201"], "A"],
         ["Optimización", "ING200", 6,0,"PC", ["MAT203"], "A"]
 	],
 	"s6": [
 		["CORE: Ética", "CORE301", 4,0, "CORE", ["CORE102"], "A"],
-        ["Inteligencia Artificial", "TICS315", 6,0, "INF", [], "P"],
-        ["Diseño de Software", "TICS316", 6,0, "INF", [], "P"],
-        ["Redes de Computadores", "TICS313", 6,0, "INF", [], "P"],
+        ["Evaluación de Yacimientos", "MIN431", 6,0, "MIN", ["MIN210"], "P"],
+        ["Mecánica de Rocas", "MIN442", 6,0, "MIN", ["FIS301"], "P"],
+        ["Procesamiento de Minerales", "MIN421", 6,0, "MIN", ["ING371"], "P"],
         ["Principios de Economía", "ECO110", 6,0, "PC", ["ING200"], "A"],
         ["Taller de Innovación y Emprendimiento", "TEI301", 4,0,"TEI",["TEI201"],"A"]
 	],
 	"s7": [
 		["CORE: Arte y Humanidades", "CORE304",4,0,"CORE",["CORE202"],"A"],
-        ["Sistemas de Información", "TICS304",6,0,"PC",["TICS100"],"A"],
-        ["Programación Profesional", "TICS420",6,0,"INF",["TICS200"],"I"],
-        ["Arquitectura de Sistemas", "TICS3017",6,0,"INF",["TICS320"],"I"],
+        ["Diseño Minero", "MIN411",6,0,"MIN",["MIN210","MIN240"],"A"],
+        ["Investigación de Operaciones", "ING201",6,0,"PC",["EST211","ING200"],"A"],
+        ["Metalurgia Extractiva", "MIN451",6,0,"MIN",["ING116"],"I"],
         ["Formulación y Evaluación de Proyectos","ECO216",6,0,"PC",["ECO110"],"A"],
         ["Taller de Expresión Oral II", "LING112", 1,0,"COMP", [],"A"]
 	],
 	"s8": [
-		["Seguridad en TI", "TICS413",6,0,"INF",["TICS304"],"A"],
-        ["Ingeniería de Software", "TICS331",6,0,"INF",["TICS200"],"A"],
-        ["Arquitectura Cloud", "TICS400", 6,0,"INF",[],"P"],
-        ["Sistemas Operativos", "TICS311",6,0,"INF",["TICS311"],"P"],
+		["Planificación Minera", "MIN320",6,0,"MIN",["MIN431"],"A"],
+        ["Economía y Gestión Minera", "MIN432",6,0,"MIN",[],"A"],
+        ["Sustentabilidad Minera", "MIN461", 6,0,"MIN",["MIN421","QUI200"],"P"],
+        ["Automatización y Metatrónica", "MIN215",6,0,"MIN",["TICS100"],"P"],
         ["Capstone Project", "TEI401", 4,0,"TEI",["TEI301"],"A"],
         ["Liderazgo", "LID100", 2,0,"COMP",[],"A"]
 	]

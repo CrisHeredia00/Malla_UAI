@@ -33,36 +33,36 @@
         ["Deporte IV", "GYM104",1,0,"DEP", [], "A"],
         ["Práctica Profesional Operario", "PPO101", 6,0, "PC", [], "A"]
 	],
-	"s5": [
-		["CORE: Ciencias", "CORE302",4,0,"CORE", ["CORE102"], "A"],
-        ["Minería de Datos", "TICS411", 6,0,"INF", [], "A"],
-        ["Lenguajes y Paradigmas de Programación", "TICS200", 6,0, "INF", ["TICS100"], "I"],
-        ["Estructuras de Datos y Algoritmos", "TICS311", 6,0, "INF", [], "A"],
-        ["Bases de Datos", "TICS320", 6,0, "INF", [], "A"],
-        ["Optimización", "ING200", 6,0,"PC", ["MAT203"], "A"]
-	],
-	"s6": [
-		["CORE: Ética", "CORE301", 4,0, "CORE", ["CORE102"], "A"],
-        ["Inteligencia Artificial", "TICS315", 6,0, "INF", [], "P"],
-        ["Diseño de Software", "TICS316", 6,0, "INF", [], "P"],
-        ["Redes de Computadores", "TICS313", 6,0, "INF", [], "P"],
-        ["Principios de Economía", "ECO110", 6,0, "PC", ["ING200"], "A"],
-        ["Taller de Innovación y Emprendimiento", "TEI301", 4,0,"TEI",["TEI201"],"A"]
-	],
-	"s7": [
-		["CORE: Arte y Humanidades", "CORE304",4,0,"CORE",["CORE202"],"A"],
-        ["Sistemas de Información", "TICS304",6,0,"PC",["TICS100"],"A"],
-        ["Programación Profesional", "TICS420",6,0,"INF",["TICS200"],"I"],
-        ["Arquitectura de Sistemas", "TICS3017",6,0,"INF",["TICS320"],"I"],
-        ["Formulación y Evaluación de Proyectos","ECO216",6,0,"PC",["ECO110"],"A"],
-        ["Taller de Expresión Oral II", "LING112", 1,0,"COMP", [],"A"]
-	],
-	"s8": [
-		["Seguridad en TI", "TICS413",6,0,"INF",["TICS304"],"A"],
-        ["Ingeniería de Software", "TICS331",6,0,"INF",["TICS200"],"A"],
-        ["Arquitectura Cloud", "TICS400", 6,0,"INF",[],"P"],
-        ["Sistemas Operativos", "TICS311",6,0,"INF",["TICS311"],"P"],
-        ["Capstone Project", "TEI401", 4,0,"TEI",["TEI301"],"A"],
-        ["Liderazgo", "LID100", 2,0,"COMP",[],"A"]
-	]
+    "s5": [
+        ["CORE: Ciencias","CORE302",4,0,"CORE",["CORE102"],"A"],
+        ["Dinámica y Vibraciones","FIS300",6,0,"MEC",["FIS101"],"I"],
+        ["Estática Aplicada","OCIV310",6,0,"MEC",["FIS101"],"I"],
+        ["Metalurgia Física","MEC401",6,0,"MEC",[],"I"],
+        ["Introducción a la Robótica","TICS412",4,0,"MEC",[],"I"],
+        ["Optimización","ING200",6,0,"PC",["MAT203"],"I"]
+    ],
+    "s6": [
+        ["CORE: Ética","CORE301",4,0,"CORE",["CORE102"],"A"],
+        ["Métodos Numéricos","MEC301",6,0,"MEC",["MAT106","MAT113"],"P"],
+        ["Termodinámica","FIS225",6,0,"MEC",["FIS201"],"P"],
+        ["Diseño Mecánico Computacional","MEC300",6,0,"MEC",["ING200"],"P"],
+        ["Principios de economía","ECO110",6,0,"PC",["ING200"],"A"],
+        ["Taller de Innovación y Emprendimiento","TEI301",4,0,"TEI",["TEI201"],"A"]
+    ],
+    "s7": [
+        ["CORE: Arte y Humanidades","CORE304",5,0,"CORE",["CORE202"],"A"],
+        ["Tecnologías de Generación Convencionales","EYM341",6,0,"MEC",[],"I"],
+        ["Mecánica de Fluidos","ING325",6,0,"MEC",["FIS201", "MAT208"],"I"],
+        ["Diseño de máquinas","MEC400",6,0,"MEC",["MEC300", "FIS301"],"I"],
+        ["Formulación y Evaluación de Proyectos","ECO216","6",0,"PC",["ECO110"],"A"],
+        ["Taller de Expresión Oral II","LING112",4,0,"COMP",[],""]
+    ],
+    "s8": [
+        ["Gestión de Operaciones","ING421",6,0,"PC",["ING200"],"A"],
+        ["Automatización y Mecatrónica","MIN215",6,0,"MEC",["TICS100"],"P"],
+        ["Proceso de Manufactura","MEC420",6,0,"PC",[],"P"],
+        ["Transferencia de Calor y Masa","EYM311",6,0,"MEC",["FIS225","ING325"],"P"],
+        ["Capstone Project","TEI401",4,0,"TEI",["TEI301"],"A"],
+        ["Liderazgo","LID100",2,0,"COMP",[],"A"]
+    ]
 }
