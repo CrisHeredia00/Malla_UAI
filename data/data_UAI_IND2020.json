@@ -35,7 +35,7 @@
 	],
     "s5": [
         ["CORE: Ciencias","CORE302",4,0,"CORE",["CORE102"],"A"],
-        ["Minor I","MIN200",6,0,"MIN",[],"A"],
+        ["Minor I","MIN100",6,0,"MIN",[],"A"],
         ["Contabilidad y Control de Gestión","ACCT240",6,0,"IND",[],"A"],
         ["Procesos Industriales","ING105",6,0,"IND",["FIS201"],"A"],
         ["Organizaciones y Personas","IND428",4,0,"IND",[],"A"],
