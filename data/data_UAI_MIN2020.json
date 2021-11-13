@@ -52,7 +52,7 @@
 	"s7": [
 		["CORE: Arte y Humanidades", "CORE304",4,0,"CORE",["CORE202"],"A"],
         ["Diseño Minero", "MIN411",6,0,"MIN",["MIN210","MIN240"],"A"],
-        ["Investigación de Operaciones", "ING201",6,0,"PC",["EST211","ING200"],"A"],
+        ["Investigación de Operaciones", "ING201",6,0,"MIN",["EST211","ING200"],"A"],
         ["Metalurgia Extractiva", "MIN451",6,0,"MIN",["ING116"],"I"],
         ["Formulación y Evaluación de Proyectos","ECO216",6,0,"PC",["ECO110"],"A"],
         ["Taller de Expresión Oral II", "LING112", 1,0,"COMP", [],"A"]

@@ -60,7 +60,7 @@
     "s8": [
         ["Gestión de Operaciones","ING421",6,0,"PC",["ING200"],"A"],
         ["Automatización y Mecatrónica","MIN215",6,0,"MEC",["TICS100"],"P"],
-        ["Proceso de Manufactura","MEC420",6,0,"PC",[],"P"],
+        ["Proceso de Manufactura","MEC420",6,0,"MEC",[],"P"],
         ["Transferencia de Calor y Masa","EYM311",6,0,"MEC",["FIS225","ING325"],"P"],
         ["Capstone Project","TEI401",4,0,"TEI",["TEI301"],"A"],
         ["Liderazgo","LID100",2,0,"COMP",[],"A"]

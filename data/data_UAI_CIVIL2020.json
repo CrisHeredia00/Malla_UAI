@@ -43,7 +43,7 @@
     ],
     "s6": [
         ["CORE: Ética","CORE301",4,0,"CORE",["CORE102"],"A"],
-        ["Tecnología del Hoprmigón","OCIV316",6,0,"CIV",[],"P"],
+        ["Tecnología del Hormigón","OCIV316",6,0,"CIV",[],"P"],
         ["Geotecnia","ING329",6,0,"CIV",["FIS101"],"A"],
         ["Análisis Estructural","OCIV331",6,0,"CIV",["OCIV312"],"A"],
         ["Principios de Economía","ECO110",6,0,"PC",["ING200"],"A"],

@@ -65,7 +65,7 @@
 		["Seguridad en TI", "TICS413",6,0,"INF",["TICS304"],"A"],
         ["Ingeniería de Software", "TICS331",6,0,"INF",["TICS200"],"A"],
         ["Arquitectura Cloud", "TICS400", 6,0,"INF",[],"P"],
-        ["Sistemas Operativos", "TICS311",6,0,"INF",["TICS311"],"P"],
+        ["Sistemas Operativos", "TICS312",6,0,"INF",["TICS311"],"P"],
         ["Capstone Project", "TEI401", 4,0,"TEI",["TEI301"],"A"],
         ["Liderazgo", "LID100", 2,0,"COMP",[],"A"],
         ["Diseño de Procesos y Servicios","ING480",6,0,"IND",["ING200"],"A"]
