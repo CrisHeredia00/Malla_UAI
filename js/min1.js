@@ -520,7 +520,7 @@ class Malla {
   }
   displayCreditSystem() {
     this.showCreditSystem &&
-      d3.select("#credits-system").text(this.sct ? "SCT" : "USM"); 
+      d3.select("#credits-system").text(this.sct ? "SCT" : "UAI"); 
   }
   updateStats() {
     if (!this.showCreditStats) return;

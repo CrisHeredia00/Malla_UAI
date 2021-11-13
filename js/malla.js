@@ -329,7 +329,7 @@ class Malla {
     displayCreditSystem() {
         if (!this.showCreditSystem)
             return
-        d3.select("#credits-system").text(this.sct ? 'SCT' : 'USM')
+        d3.select("#credits-system").text(this.sct ? 'SCT' : 'UAI')
     }
 
     // Actualiza los datos como porcentaje de ramos aprobados etc
