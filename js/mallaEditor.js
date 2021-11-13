@@ -180,7 +180,7 @@ class MallaEditor {
         let subjectNameCol = document.createElement("td")
             subjectNameCol.textContent = subject.name
         let subjectCreditsCol = document.createElement("td")
-            subjectCreditsCol.textContent = subject.getUSMCredits() + " USM | " + subject.getSCTCredits() + " SCT"
+            subjectCreditsCol.textContent = subject.getUSMCredits() + " UAI | " + subject.getSCTCredits() + " SCT"
         let subjectState = document.createElement("td")
         subjectState.setAttribute("id", "state")
         if (subject.selected) {
@@ -284,7 +284,7 @@ class MallaEditor {
         }
         let subjectRow = this.tableList[subject.sigla][0].childNodes
         subjectRow[1].textContent = subject.name
-        subjectRow[2].textContent = subject.getUSMCredits() + " USM | " + subject.getSCTCredits() + " SCT"
+        subjectRow[2].textContent = subject.getUSMCredits() + " UAI | " + subject.getSCTCredits() + " SCT"
         if (this.advanced) {
             let subjectPrer = subjectRow[4]
             subjectPrer.textContent = null
