@@ -124,7 +124,7 @@
           </small>
         </div>
         <div class="form-group">
-          <label for="custom-credits-USM">Créditos USM</label>
+          <label for="custom-credits-USM">Créditos UAI</label>
           <input type="number" inputmode="numerical" autocomplete="off" class="form-control" id="custom-credits-USM" required pattern="[1-9]+" placeholder="Ingrese un valor">
           <small id="custom-credits-USM-help" class="form-text text-muted">
             Obligatorio
@@ -134,7 +134,7 @@
           <label for="custom-credits-SCT">Créditos SCT</label>
           <input type="number" inputmode="numerical" autocomplete="off" class="form-control" id="custom-credits-SCT" pattern="[1-9]+" placeholder="Ingrese un valor">
           <small id="custom-credits-SCT-help" class="form-text text-muted">
-            Si esta entrada no se llena, los créditos se calcularan con relación a los créditos USM
+            Si esta entrada no se llena, los créditos se calcularan con relación a los créditos UAI
           </small>
         </div>
       </div>
@@ -180,15 +180,15 @@
         </p>
         <p>
           Durante el segundo semestre de 2019 y principios del primero de 2020, la universidad empezó a trabajar con los créditos SCT
-           y con ello se modificó la formula, pues esta está pensada para créditos USM. Esto se sabe puesto que hasta el día de hoy,
+           y con ello se modificó la formula, pues esta está pensada para créditos UAI. Esto se sabe puesto que hasta el día de hoy,
           la plataforma SIGA muestra una prioridad que difiere de la calculada por la formula del reglamento,
           <strong>referenciado en la mismísima página de inicio de sesión del SIGA</strong> La formula de abajo corresponde a una suposición propia.
         </p>
         <p style="overflow: auto">
           $$\text{Prioridad Nueva} = 100\cdot\frac{\sum{\text{Nota Asignatura} \cdot \text{Créditos SCT Asignatura}}}{14 \cdot \frac{5}{3} \cdot \text{semestre}^{1.06}} \cdot \frac{\text{Créditos SCT Aprobados}}{\text{Créditos SCT Tomados Totales}} \cdot \text{FAE}$$
         </p>
-        <p>Para efectos de la calculadora, si la malla no tiene información de los créditos SCT, este se calcula a partir de los créditos USM y luego se redondea</p>
-        <p>$$ 1 \text{ crédito SCT} = 1 \text{ crédito USM} \cdot \frac{5}{3}$$</p>
+        <p>Para efectos de la calculadora, si la malla no tiene información de los créditos SCT, este se calcula a partir de los créditos UAI y luego se redondea</p>
+        <p>$$ 1 \text{ crédito SCT} = 1 \text{ crédito UAI} \cdot \frac{5}{3}$$</p>
 
       </div>
       <div class="modal-footer">
@@ -442,7 +442,7 @@
           stroke: white;
         }
       }
-    </style><style><![CDATA[.D{dominant-baseline:middle}.E{font-size:12px}.F{text-anchor:middle}]]></style><path fill="#2e58a7" d="M100 0h100v100H100z"/><path d="M100 0h100v20H100zm0 80h100v20H100z" class="bars" fill="gray"/><circle cx="190" cy="10" r="8" fill="#fff" fill-rule="evenodd"/><circle cy="90" cx="115" r="9" fill="#2e58a7" stroke="#fff"/><path d="M178 80h20v20h-20z" fill="#fff"/><text xml:space="preserve" x="190" y="10" writing-mode="lr-tb" direction="ltr" class="D E F"><tspan x="190" y="10" class="D">2</tspan></text><text xml:space="preserve" x="188" y="90" class="D E F"><tspan id="creditsNumberExample" x="187.639" y="90" class="D">1</tspan></text><text xml:space="preserve" x="115" y="90" fill="#fff" class="D E F"><tspan x="114.979" y="90.391" class="D">1</tspan></text><text xml:space="preserve" x="105" y="10" font-weight="bold" letter-spacing="0" fill="#fff" class="D E"><tspan x="105" y="10" class="D">INF-102</tspan></text><text xml:space="preserve" x="150" y="40" fill="#fff" class="E F"><tspan x="150" y="40" class="D">Mallas</tspan><tspan x="150" y="53.2" class="D">y</tspan><tspan x="150" y="66.4" class="D">Complejidad</tspan></text><text xml:space="preserve" x="92.465" y="11.742" text-anchor="end" class="E text"><tspan x="92.465" y="11.742">Sigla</tspan><tspan x="92.465" y="26.742">Asignatura</tspan></text><text xml:space="preserve" x="209.197" y="16.86" class="E text"><tspan x="209.197" y="16.86">Número</tspan><tspan x="209.197" y="31.86">asignatura</tspan></text><text xml:space="preserve" x="209.326" y="89.117" class="E text"><tspan id="creditsExample" x="209.326" y="89.117">Créditos USM</tspan></text><text xml:space="preserve" x="47.622" y="93.323" class="E F text"><tspan x="47.622" y="93.323">Prerrequisitos</tspan></text><path d="M94 9.4h9m91 2.6h14m-17 75h17m-100 3H92" class="line" stroke="#000"/></svg>
+    </style><style><![CDATA[.D{dominant-baseline:middle}.E{font-size:12px}.F{text-anchor:middle}]]></style><path fill="#2e58a7" d="M100 0h100v100H100z"/><path d="M100 0h100v20H100zm0 80h100v20H100z" class="bars" fill="gray"/><circle cx="190" cy="10" r="8" fill="#fff" fill-rule="evenodd"/><circle cy="90" cx="115" r="9" fill="#2e58a7" stroke="#fff"/><path d="M178 80h20v20h-20z" fill="#fff"/><text xml:space="preserve" x="190" y="10" writing-mode="lr-tb" direction="ltr" class="D E F"><tspan x="190" y="10" class="D">2</tspan></text><text xml:space="preserve" x="188" y="90" class="D E F"><tspan id="creditsNumberExample" x="187.639" y="90" class="D">1</tspan></text><text xml:space="preserve" x="115" y="90" fill="#fff" class="D E F"><tspan x="114.979" y="90.391" class="D">1</tspan></text><text xml:space="preserve" x="105" y="10" font-weight="bold" letter-spacing="0" fill="#fff" class="D E"><tspan x="105" y="10" class="D">INF-102</tspan></text><text xml:space="preserve" x="150" y="40" fill="#fff" class="E F"><tspan x="150" y="40" class="D">Mallas</tspan><tspan x="150" y="53.2" class="D">y</tspan><tspan x="150" y="66.4" class="D">Complejidad</tspan></text><text xml:space="preserve" x="92.465" y="11.742" text-anchor="end" class="E text"><tspan x="92.465" y="11.742">Sigla</tspan><tspan x="92.465" y="26.742">Asignatura</tspan></text><text xml:space="preserve" x="209.197" y="16.86" class="E text"><tspan x="209.197" y="16.86">Número</tspan><tspan x="209.197" y="31.86">asignatura</tspan></text><text xml:space="preserve" x="209.326" y="89.117" class="E text"><tspan id="creditsExample" x="209.326" y="89.117">Créditos UAI</tspan></text><text xml:space="preserve" x="47.622" y="93.323" class="E F text"><tspan x="47.622" y="93.323">Prerrequisitos</tspan></text><path d="M94 9.4h9m91 2.6h14m-17 75h17m-100 3H92" class="line" stroke="#000"/></svg>
 </div>
 <!-- fin svg ramo -->
 
