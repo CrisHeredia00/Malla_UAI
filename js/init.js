@@ -67,7 +67,7 @@ let params = new URLSearchParams(window.location.search)
 
 let carr =  params.get('m')
 if (!carr)
-    carr = 'INF'
+    carr = 'UAI_INF_IND2020'
 let sct = false
 if (params.get('SCT') === "true")
     sct = true

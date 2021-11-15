@@ -1,10 +1,10 @@
 {
   "Malla": {
-    "welcomeTitle": "¡Bienvenido a la Malla Interactiva de CARRERA!",
-    "welcomeDesc": "Puedes tachar tus ramos aprobados haciendo click sobre ellos. A medida que vas aprobando ramos, se van liberando los que tienen prerrequisitos. Haz click en cualquier lado para comenzar."
+    "welcomeTitle": "¡Bienvenido a la Malla Interactiva!",
+    "welcomeDesc": "¡HAZ CLICK PARA EMPEZAR!"
   },
   "Prioridad": {
-    "welcomeTitle": "¡Bienvenido a la calculadora de prioridad CARRERA!",
+    "welcomeTitle": "¡Bienvenido a la calculadora de prioridad!",
     "welcomeDesc": "¡Selecciona los ramos por semestre e ingresa tus notas para calcular tu prioridad! Usa las flechas para avanzar de semestre, los ramos aprobados se tacharán automáticamente. Si has cursado un ramo que no esta en la malla, crealo en la tabla de abajo."
   },
   "Generadora": {
